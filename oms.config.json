@@ -1,0 +1,7 @@
+{
+  "macRoot": "~/Music/Music/Media.localized/Music",
+  "androidRoot": "/sdcard/Music",
+  "extensions": [".mp3", ".m4a"],
+  "ignore": [".DS_Store", ".thumbnails", ".stfolder"],
+  "tarThreshold": 20
+}

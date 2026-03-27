@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+.env.local
+
+# Build / dist (future-proof)
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Mac metadata (important for your case)
+._*
+*.DS_Store
+
+# Optional: ignore local config overrides (if you add later)
+oms.config.local.json
+
+# VSCode
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Temporary files
+tmp/
+temp/
