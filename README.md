@@ -87,15 +87,15 @@ node bin/cli.js sync --verbose
 
 ## 🧠 How It Works
 
-1.  Scan Mac music folder\
-2.  Scan Android `/sdcard/Music`\
-3.  Build file maps\
+1.  Scan Mac music folder
+2.  Scan Android `/sdcard/Music`
+3.  Build file maps
 4.  Compute diff:
-    -   ADD → copy to Android\
-    -   UPDATE → overwrite\
-    -   DELETE → remove from Android\
+    -   ADD → copy to Android
+    -   UPDATE → overwrite
+    -   DELETE → remove from Android
 5.  Apply changes:
-    -   Small changes → sequential push\
+    -   Small changes → sequential push
     -   Large changes → TAR streaming (fast)
 
 ------------------------------------------------------------------------
@@ -151,17 +151,17 @@ adb devices
 
 ## 🚧 Roadmap
 
--   [ ] Watch mode\
--   [ ] Resume support\
--   [ ] Global CLI install\
+-   [ ] Watch mode
+-   [ ] Resume support
+-   [ ] Global CLI install
 -   [ ] Hash sync (optional)
 
 ------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
 
--   Node.js\
--   ADB\
+-   Node.js
+-   ADB
 -   cli-progress
 
 ------------------------------------------------------------------------
