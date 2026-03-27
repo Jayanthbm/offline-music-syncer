@@ -20,7 +20,7 @@ ADB.
 ## 📦 Installation (Local)
 
 ``` bash
-git clone <your-repo>
+git clone https://github.com/Jayanthbm/offline-music-syncer
 cd offline-music-syncer
 npm install
 ```
